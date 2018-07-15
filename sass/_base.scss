@@ -26,12 +26,13 @@
   }
   
   *,
-  ::before,
-  ::after {
+  *::before,
+  *::after {
     box-sizing: inherit;
   }
   
   html {
+    box-sizing: border-box;
     /*what 1 rem is*/
     font-size: 62.5%;
 }
